@@ -1,0 +1,1 @@
+include ':app', ':fastec-annotations', ':fastec-compiler', ':fastec-core', ':fast-ec'
