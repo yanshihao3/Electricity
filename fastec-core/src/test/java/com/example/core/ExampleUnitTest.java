@@ -1,4 +1,4 @@
-package com.example.fastec_core;
+package com.example.core;
 
 import org.junit.Test;
 

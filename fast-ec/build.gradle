@@ -25,5 +25,6 @@ android {
 }
 
 dependencies {
-    implementation project(':fastec-core')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api project(':fastec-core')
 }

@@ -1,4 +1,4 @@
-package com.example.fast_ec;
+package com.example.ec;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

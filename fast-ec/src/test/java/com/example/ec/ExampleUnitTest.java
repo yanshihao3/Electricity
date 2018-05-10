@@ -1,4 +1,4 @@
-package com.example.fast_ec;
+package com.example.ec;
 
 import org.junit.Test;
 
