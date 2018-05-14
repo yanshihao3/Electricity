@@ -13,7 +13,7 @@ import me.yokeyword.fragmentation.SupportActivity;
 /**
  * @author yanshihao
  */
-public  abstract class ProxyActivity extends SupportActivity {
+public  abstract class ProxyActivity extends SupportActivity{
 
     public abstract LatteDelegate setRootDelegate();
     @Override

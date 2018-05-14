@@ -3,6 +3,8 @@ package com.xinhe.fastec;
 import android.app.Application;
 
 import com.example.core.app.Latte;
+import com.example.ec.database.DatabaseManager;
+import com.example.ec.icon.FontECModule;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 
 /**
@@ -15,7 +17,10 @@ public class MyApplication extends Application {
         super.onCreate();
         Latte.init(this)
                 .withIcons(new FontAwesomeModule())
-                .withApiHost("https://www.baidu.com/")
+                .withIcons(new FontECModule())
+                .withApiHost("http://oxjde2kpq.bkt.clouddn.com/")
+                .withLoaderDelayed(2000)
                 .configure();
+        DatabaseManager.getInstance().init(this);
     }
 }

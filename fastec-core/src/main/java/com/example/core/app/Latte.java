@@ -21,14 +21,14 @@ public class Latte {
     }
 
     public static HashMap<String,Object> getConfigurations(){
-        return Configurator.getInstance().getLatteConfigs();
+        return getConfigurator().getLatteConfigs();
     }
 
 
     public static Context getApplicationContext() {
-        return (Context) getConfigurations().get(ConfigType.APPLICATION_CONTEXT);
+        return (Context) getConfigurations().get(ConfigType.APPLICATION_CONTEXT.name());
     }
     public static Handler getHandler() {
-        return (Handler) getConfigurations().get(ConfigType.HANDLER);
+        return (Handler) getConfigurations().get(ConfigType.HANDLER.name());
     }
 }

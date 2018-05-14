@@ -22,4 +22,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     api project(':fast-ec')
     annotationProcessor project(':fastec-compiler')
+
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }

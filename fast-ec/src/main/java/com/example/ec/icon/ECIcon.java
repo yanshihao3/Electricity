@@ -4,8 +4,8 @@ import com.joanzapata.iconify.Icon;
 
 public enum ECIcon implements Icon{
 
-    fa_glass('\uf000'),
-    fa_music('\uf001');
+    icon_scan('\ue602'),
+    icon_ali_pay('\ue606');
 
     char character;
 

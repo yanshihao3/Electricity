@@ -63,7 +63,7 @@ public class RequestCallbacks implements Callback<String>{
     }
 
     private void onRequestFinish() {
-        final long delayed = (long) Latte.getConfigurations().get(ConfigType.LOADER_DELAYED);
+        final long delayed = (long) Latte.getConfigurations().get(ConfigType.LOADER_DELAYED.name());
         if (LOADER_STYLE != null) {
             HANDLER.postDelayed(new Runnable() {
                 @Override
